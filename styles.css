@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: darkblue;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: cornflowerblue;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(183, 183, 207, 0.4) -5px 5px, rgba(192, 191, 200, 0.3) -10px 10px, rgba(169, 161, 193, 0.2) -15px 15px, rgba(127, 125, 144, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+h1 {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-style:italic ;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.styled-button {
+    background-color: rgb(15, 43, 143);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-style: italic;
+}
+
+.styled-button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+    
+}
+
+.styled-button:active {
+    background-color: #3e8e41;
+    transform: scale(0.9);
+   
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
